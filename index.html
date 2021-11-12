@@ -1,0 +1,357 @@
+<html>
+<head>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="index.css"></style>
+
+  
+    <title>HOME</title>
+
+    
+        
+       
+
+        
+            <div class="navbar">
+                <div class="bewakooflogo"><img class="bewakooflogoimg"src="https://images.bewakoof.com/web/bewakoof-primary-logo-white-bg-2x-1635745564.png"></div>
+                <div onclick='men()'id="men">MEN</div>
+                <div onclick='women()' class="women">WOMEN</div>
+                <div> <input class="search" placeholder="Search for products"></input></div>
+                <div class="ver"></div>
+                <div id="login" onclick='login()'>Login</div>
+                <div class="wish"><img class="wishimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2hFdyb0qzSDkJtAxiyAQ07f8uxqU6-ZXWiA&usqp=CAU"></div>
+                <div class="bag"><img class="bagimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-MEBGHWNF5_IEuxR7kNNHNfvtDKlIq0yCzg&usqp=CAU"></div>
+            </div>
+        
+    </head>
+
+
+<body>
+    <div id='borderborder'></div>
+    <div id='gapindex'></div>
+    <div id="secondborder">
+        <button id="secondmen" onclick=secondmen()>MEN</button>
+        <button id="secondwomen" onclick=secondwomen()>WOMEN</button>
+        <button id="secondaccess" onclick=secondaccess()>ACCESSORIES</button>
+    </div>
+    
+    <div onclick="showingoff()" id="showoff">
+        <div id="showoffimage1border"><img  src="https://images.bewakoof.com/uploads/grid/app/WinteraWear-Bewakoof-Homepage-HeroBanner-men-1635769163.jpg"id="showoffimage1"></div>
+        <div id="showoffimage2border"><img src="https://images.bewakoof.com/uploads/grid/app/Hero-banner-Men-680X420-1636639165.jpg"id="showoffimage2"></div>
+        <div id="showoffimage3border"><img src="https://images.bewakoof.com/uploads/grid/app/bottom-wear-hero-banner-men-1636450508.jpg"id="showoffimage3"></div>
+    </div>
+
+    <div id="smallshow">
+        <div id="smallshowimageborder">
+            <img id="smallshowimage" src="https://images.bewakoof.com/uploads/grid/app/PopCulture-Bewakoof-Homepage-ThumbnailSlider-new-1632992663.jpg"/>
+            <p id="p">Pop culture</p>
+        </div>
+        
+        <div id="smallshowimageborder">
+            <img id="smallshowimage" src="https://images.bewakoof.com/uploads/grid/app/winter-thumbnail-1636691362.jpg"/>
+            <p id="p">Winter collection</p>
+        </div>
+        <div id="smallshowimageborder">
+            <img id="smallshowimage" src="https://images.bewakoof.com/uploads/grid/app/COSMOS-Bewakoof-Homepage-ThumbnailSlider-Facewash--1--1635414013.jpg"/>
+            <p id="p">Cosmos</p>
+        </div>
+        <div id="smallshowimageborder">
+            <img id="smallshowimage" src="https://images.bewakoof.com/uploads/grid/app/best-of-offer-thumbnail-1631190525.jpg"/>
+            <p id="p">Offer</p>
+        </div>
+        <div id="smallshowimageborder">
+            <img id="smallshowimage" src="https://images.bewakoof.com/uploads/grid/app/bewakoof-plus-size-store-thumbnail-1629382695.jpg"/>
+            <p id="p">Plus size</p>
+        </div>
+        <div id="smallshowimageborder">
+            <img id="smallshowimage" src="https://images.bewakoof.com/uploads/grid/app/Bestsellers-1603991978.png"/>
+            <p id="p">Uploads</p>
+        </div>
+        <div id="smallshowimageborder">
+            <img id="smallshowimage" src="https://images.bewakoof.com/uploads/grid/app/Anime-Bewakoof-Homepage-ThumbnailSlider-Revised-1635493884.jpg"/>
+            <p id="p">Anime</p>
+        </div>
+        <div id="smallshowimageborder"> 
+            <img id="smallshowimage" src="https://images.bewakoof.com/uploads/grid/app/Thumbnail-Slider-Festive-Wear-1634552008.png"/>
+            <p id="p">Festive wear</p>
+        </div>
+        <div id="smallshowimageborder">
+            <img id="smallshowimage" src="https://images.bewakoof.com/uploads/grid/app/Thumbnail-Slider-Athleisure-1632199077.png"/>
+            <p id="p">Athleisure</p>
+        </div>
+    </div>
+
+
+    <p id="hotdealp">HOT DEALS</p>
+    <div id="hotdealborder" onclick="showingoff()">
+        <div id="hotdealimage1border">
+            <img id="hotdealimage1" src="https://images.bewakoof.com/uploads/grid/app/Hero-Banner-Bestseller-Men-1636644502.jpg"/>
+        </div>
+        <div id="hotdealimage2border">
+            <img id="hotdealimage2" src="https://images.bewakoof.com/uploads/grid/app/b1g1-hero-banner-men-2-1628784434.jpg"/>
+        </div>
+        <div id="hotdealimage3border">
+            <img id="hotdealimage3" src="https://images.bewakoof.com/uploads/grid/app/men-3-for-999-1634044532.png"/>
+        </div>
+    </div>
+
+
+    <div id="staticimageborder"><img id="staticimage" src="https://images.bewakoof.com/uploads/grid/app/desktop---strip-1440---x-150---tribe-1634552003.png"></div>
+
+    <p id="p" style="font-size:18px;">WHAT'S NEW</p>
+    <div id="whatnewborder" onclick="showingoff()">
+        <div id="whatnewimage1border"><img id="whatnewimage1"/>
+        <p id="whatname1"></p>
+        </div>
+        <div id="whatnewimage2border"><img id="whatnewimage2"/>
+            <p id="whatname2"></p>
+        </div>
+        <div id="whatnewimage3border"><img id="whatnewimage3"/>
+            <p id="whatname3"></p>
+        </div>
+        <div id="whatnewimage4border"><img id="whatnewimage4"/>
+            <p id="whatname4"></p>
+        </div>
+        <div id="whatnewimage5border"><img id="whatnewimage5"/>
+            <p id="whatname5"></p>
+        </div>
+
+    </div>
+
+    <p style="font-size:18px" id="p">TRENDING</p>
+    <div id="trendborder" onclick="showingoff()">
+        <div id="trendimage1border"><img id="trendimage1"/>
+        <p id="trendname1"></p>
+        </div>
+        <div id="trendimage2border"><img id="trendimage2"/>
+            <p id="trendname2"></p>
+        </div>
+        <div id="trendimage3border"><img id="trendimage3"/>
+            <p id="trendname3"></p>
+        </div>
+        <div id="trendimage4border"><img id="trendimage4"/>
+            <p id="trendname4"></p>
+        </div>
+        <div id="trendimage5border"><img id="trendimage5"/>
+            <p id="trendname5"></p>
+        </div>
+
+    </div>
+    
+    <div id="staticimageborder">
+        <img id="staticimage" src="https://images.bewakoof.com/uploads/grid/app/Cosmos-Bewakoof-HALF-Banner-Desktop-MEN-NEW-upto50-withoutsoap-HIGHRES-1633535209.jpg"/>
+    </div>
+
+    <div id="staticimageborder">
+        <img id="staticimage" src="https://images.bewakoof.com/uploads/grid/app/desktop-strips-1625745009.png"/>
+    </div>
+
+    <div id="staticimageborder">
+        <img id="staticimage" src="https://images.bewakoof.com/uploads/grid/app/Desktop-banner-Half-Refer-And-Chill-1630929040.png"/>
+    </div>
+</body>
+
+    <p id="p" style="font-size:18px;margin-top:3%;">ACCESSORIES FOR YOU</p>
+    <div onclick="access()" id="foryouborder">
+        <div id="foryouimageborder"><img id="foryouimage1"/></div>
+        <div id="foryouimageborder"><img id="foryouimage2"/></div>
+        <div id="foryouimageborder"><img id="foryouimage3"/></div>
+        <div id="foryouimageborder"><img id="foryouimage4"/></div>
+        <div id="foryouimageborder"><img id="foryouimage5"/></div>
+
+    </div>
+
+    <p id="p" style="font-size:18px;margin-top:3%;">YOU MAY ALSO LIKE</p>
+    <div id="youborder">
+        <div id='youimage1border'>
+            <img id=i src="https://images.bewakoof.com/uploads/grid/app/vote-1618414275.jpg">
+        </div>
+        <div id='youimage2border'>
+            <img id=i src="https://images.bewakoof.com/uploads/grid/app/meme-1618414275.jpg">
+        </div>
+        <div id='youimage3border'>
+            <img id=i src="https://images.bewakoof.com/uploads/grid/app/bkwf-squad-1618414273.jpg">
+        </div>
+        <div id='youimage4border'>
+            <img id=i src="https://images.bewakoof.com/uploads/grid/app/wfh-men-1618414275.jpg">
+        </div>
+    </div>
+    
+    <div id="gapindex"></div>
+    <div id="gapindex"></div>
+    <div id="gapindex"></div>
+    <div id="gapindex"></div>
+    <div id="gapindex"></div>
+    <div id="gapindex"></div>
+    <div id="gapindex"></div>
+    <div id="gapindex"></div>
+    
+    
+
+
+ <div id="downdown">
+
+        <div id='footer'>
+
+            <h2 id='bewa'>Bewakoof</h2>
+        
+            <div id='flexx'>
+                <div>
+                    <h5> CUSTOMER SERVICE</h5>
+                    Contact Us<br/>
+                    Track Order<br/>
+                    Return Order<br/>
+                    Cancel Order
+                </div>
+        
+                <div>
+                    <h5> COMPANY</h5>
+                    About Us<br/>
+                    We're Hiring<br/>
+                    Terms & Conditions<br/>
+                    Privacy Policy<br/>
+                    Blog
+                </div>
+        
+                <div>
+                    <h5>CONNECT WITH US</h5>
+                    4.7M People Like this<br/>
+                      <p>1M Followers</p> <br/>
+                </div>
+        
+                <div>
+                    <h5>KEEP UP TO DATE</h5>
+                </div>
+        
+            </div>
+        
+            <div id='flexx'>
+                <div><p id='marginn'>15 Days return policy</p><br/>
+                   Cash on delivery* 
+                </div>
+        
+                <div id='googleimg'>
+                    <h5>DOWNLOAD THE APP</h5>
+                    <img src='https://images.bewakoof.com/web/app_android_v1.png'/>
+                    <img src='https://images.bewakoof.com/web/app_ios_v1.png'/>
+                </div>
+        
+                <div id='cards'>
+                    <h5>100% SECURE PAYMENT</h5>
+                    <img src='https://images.bewakoof.com/web/secure-payments-image.png'/>
+                </div>
+                 
+        
+               
+            </div>
+        
+            <div id='hrline'></div>
+        
+            <div id='flexx2'>
+        
+        
+            <div id='men-v'>
+                <h3>MEN'S CLOTHING</h3>
+                <div>
+                Top Wear <br/>
+        Men's New Arrivals<br/>
+        Men's Half Sleeve T-Shirts<br/>
+        Men's Hoodies & Sweatshirts<br/>
+        Men's Long Sleeve T-shirts<br/>
+        Men's Printed T-shirts<br/>
+        Men's Plain T-shirts<br/>
+        Men's Vests<br/>
+        Men's Polo T-Shirts<br/>
+        Men's Kurtas<br/>
+        Men's Combo T-Shirts<br/>
+        Men's Shirts<br/>
+        Men's Nightwear<br/>
+        Men's Plus Size Store<br/> </div>
+        
+        <div id='gapp'>
+            Bottom Wear<br/>
+        Men's Pajamas<br/>
+        Men's Boxer Shorts<br/>
+        Men's Shorts<br/>
+        Men's Track Pants<br/>
+        Men's Pants<br/>
+        </div>
+        <div id='gapp'>
+            Featured<br/>
+        Men's Flip Flops<br/>
+        Men's Sliders<br/>
+        Marvel T-Shirts<br/>
+        Disney T-Shirts<br/>
+        Avengers T-Shirts<br/>
+        Star Wars T-Shirts<br/>
+        Batman T-Shirts<br/>
+        Superman T-Shirts<br/>
+        Joker T-Shirts<br/>
+        </div>
+            </div>
+        
+            <div id='women-v'>
+                <h3>WOMEN'S CLOTHING</h3>
+                <div>
+                Women's Top Wear<br/>
+        Women's New Arrivals<br/>
+        Women's T-Shirts<br/>
+        Women's Hoodies & Sweatshirts<br/>
+        Women's Dresses<br/>
+        Women's 3/4 Sleeve T-Shirts<br/>
+        Women's Kurtis<br/>
+        Women's Combo T-Shirts<br/>
+        Women's Nightwear<br/>
+        Women's Plus Size Store<br/> </div>
+        
+        <div id='gapp'>
+            Women's Bottom Wear<br/>
+        Women's Pajamas<br/>
+        Women's Boxer Shorts<br/>
+        Women's Jeans<br/>
+        Women's Joggers<br/>
+        Women's Shorts<br/>
+        </div>
+        
+        <div id='gapp'>
+            BAGS<br/>
+        Laptop Bags<br/>
+        Small Backpacks<br/>
+        </div>
+        
+        <div id='fgapp'>
+            Featured<br/>
+        Women's Slides<br/>
+        Women's Flip Flops<br/>
+        </div>
+        
+        </div>
+        
+        <div id='mobile-v'>
+            <h3>MOBILE COVERS</h3>
+            <div>
+            Brands<br/>
+            Apple<br/>
+        Realme<br/>
+        Samsung<br/>
+        Xiaomi<br/>
+        Oneplus<br/>
+        Vivo<br/>
+        Oppo<br/> </div>
+        </div>
+        
+        <div id='fanbook'>
+            <h3>FANBOOK</h3>
+            <h3>OFFERS</h3>
+            <h3>SITEMAP</h3>
+        </div>
+        
+        
+        </div>
+            </div>
+            
+    </div>
+<script src=index.js></script>
+</html>
+

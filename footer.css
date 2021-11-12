@@ -1,0 +1,87 @@
+#footer{
+    float:left;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+#flexx{
+    display: flex;
+
+}
+#flexx h5{
+    color:#fdd835;
+    font-size: 13px;
+    margin-top: 0;
+    font-weight: normal;
+    margin-top:10px;
+}
+#flexx div{
+    color:white;
+    margin-left:10%;
+    font-size: small;
+}
+#bewa{
+    color:#fdd835;
+    margin-left:10%;
+    margin-bottom:0px;
+    padding-top:70px;
+  
+    
+}
+#flexx2{
+    display: flex;
+    color:white
+}
+#marginn{
+    margin-bottom: 0;
+}
+#footer > div:nth-child(3){
+    margin-top: 28px;
+}
+#googleimg img{
+    width:35%;
+    
+}
+#flexx #cards{
+    margin-left:0;
+}
+#footer #hrline{
+    
+    border:thin solid white;
+    background-color: black;
+    width:78%;
+    margin:2%;
+    margin-left:10%;
+    opacity:.5
+    
+}
+#men-v{
+    color:white;
+}
+#flexx2{
+    display:flex;
+    font-size: small;
+
+    
+}
+#flexx2 div{
+    margin-left:5%;
+}
+#flexx2 #men-v{
+    margin-left: 10%;
+}
+#flexx2 #gapp{
+    margin-top:12px;
+    margin-left:0;
+}
+
+#flexx2 h3{
+    font-size:18px;
+    opacity: 1;
+}
+#fanbook{
+    color:#51cccc;
+}
+#men-v div,#women-v div,#mobile-v div{
+    opacity: .92;
+    margin-left: 0;
+}

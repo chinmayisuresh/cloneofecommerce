@@ -1,0 +1,583 @@
+body{
+    margin:0;
+    
+    font-family: montserrat,sans-serif;
+
+}
+
+.bignavbar{
+    height:80%;
+    width:100%;
+    
+}
+
+.bagimg{
+    height:100%;
+    width:100%;
+}
+.bag{
+    height:50%;
+    width:1.8%;
+    
+    float:left;
+    margin-top:0.75%;
+    margin-left:1.5%;
+}
+.wish{
+    margin-top:1%;
+    height:40%;
+    
+    float:left;
+    
+}
+.wishimg{
+    height:100%;
+    width:100%;
+
+}
+::placeholder{
+    font-size:80%;
+    font-family: montserrat,sans-serif;
+}
+:focus{
+    outline: none;
+}
+ .search{
+     width:22%;
+     margin-top:0.4%;
+     float:left;
+     margin-left:30%;
+     background-color:rgb(233, 232, 232);
+     border-radius:5px;
+     padding:0.9%;
+     border:none;
+     
+     
+ }
+ .search:hover {
+    font-family: montserrat,sans-serif;
+     background-color:white;
+     border:0.5px solid rgb(233,232,232);
+    
+ }
+ .ver{
+    font-family: montserrat,sans-serif;
+     margin-top:1%;
+     height:40%;
+     border-left:solid 0.2px rgb(184, 179, 179);
+     margin-left:0.8%;
+     float:left;
+ }
+ 
+ #login{
+     float:left;
+     margin-left:0.2%;
+     padding:0.9%;
+     font-family: montserrat,sans-serif;
+     cursor:pointer;
+
+ }
+.navbar{
+    height:8%;
+    width:100%;
+    float:left;
+    border-bottom:  solid 0.5px  rgb(233, 232, 232);
+    position:fixed;
+    background-color:#fff;
+    
+}
+.bewakooflogo{
+    height:100%;
+    width:11%;
+    margin-left:7%;
+    font-family: montserrat,sans-serif;
+    float:left;
+}
+.bewakooflogoimg{
+    margin-top:6%;
+    height:45%;
+    width:100%;
+}
+#men{
+    padding:0.9%;
+    font-family: montserrat,sans-serif;
+    float:left;
+    margin-left:3%;
+    font-size:80%;
+    cursor:pointer;
+
+}
+.women{
+    font-size:80%;
+    float:left;
+     padding:0.9%;
+     cursor:pointer;
+     font-family: montserrat,sans-serif;
+    
+    
+}
+
+
+
+
+#borderborder{
+    height:10%;
+    
+    
+    
+    position:fixed;
+    z-index:50;
+}
+#gapindex{
+    height:12%;
+    width:100%;
+    background-color: #fff;
+    
+}
+
+#secondborder{
+    height:10%;
+    width:100%;
+    
+    
+    background-color: #fff;
+}
+
+#secondmen{
+    height:100%;
+    width:10%;
+    border:none;
+    margin-left:30%;
+    float:left;
+    background-color:#fff;
+    font-family: montserrat,sans-serif;
+    font-size:16px;
+    border-bottom:solid 4px #ffd835;
+    cursor:pointer;
+}
+#secondwomen{
+    height:100%;
+    width:10%;
+    border:none;
+    float:left;
+    background-color:#fff;
+    font-family: montserrat,sans-serif;
+    font-size:16px;
+    cursor:pointer;
+}
+#secondaccess{
+    height:100%;
+    width:10%;
+    border:none;
+    
+    float:left;
+    background-color:#fff;
+    font-family: montserrat,sans-serif;
+    font-size:16px;
+    cursor:pointer;
+}
+
+
+#showoff{
+    height:48%;
+    width:100%;
+    
+    margin-top:2%;
+    cursor:pointer;
+}
+
+#showoffimage1border{
+    height:100%;
+    width:33%;
+    float:left;
+    margin-left:2%;
+    
+    border-radius:5px;
+}
+
+
+#showoffimage2border{
+    height:100%;
+    width:30%;
+    float:left;
+    margin-left:2%;
+    
+    border-radius:5px;
+}
+
+#showoffimage3border{
+    height:100%;
+    width:30%;
+    float:left;
+    margin-left:2%;
+    
+    border-radius:5px;
+}
+#showoffimage1{
+      height:100%;
+      width:100%;
+      border-radius:5px;
+}
+#showoffimage2{
+    height:100%;
+      width:100%;
+      border-radius:5px;
+
+}
+#showoffimage3{
+    height:100%;
+      width:100%;
+      border-radius:5px;
+
+}
+
+#smallshow{
+    height:24%;
+    width:95%;
+    margin-top:2%;
+    margin-left:4%;
+    
+}
+
+#smallshowimageborder{
+height:68%;
+width:8.1%;
+margin-left:2%;
+float:left;
+
+border-radius:15px;
+}
+
+#smallshowimage{
+    height:100%;
+    width:100%;
+    border-radius:15px;
+}
+#p{
+    
+    font-family: montserrat,sans-serif;
+    font-size:12px;
+    text-align:center;
+    font-weight:bolder;
+}
+
+#hotdealp{
+    margin-top:3%;
+    font-family: montserrat,sans-serif;
+    font-size:12px;
+    text-align:center;
+    font-weight:bolder;
+    margin-bottom:3%;
+}
+
+#hotdealborder{
+    height:48%;
+    width:100%;
+    
+    cursor:pointer;
+}
+
+#hotdealimage1border{
+    height:100%;
+    width:33%;
+    float:left;
+    margin-left:2%;
+    
+    border-radius:5px;
+}
+
+#hotdealimage2border{
+    height:100%;
+    width:30%;
+    float:left;
+    margin-left:2%;
+    
+    border-radius:5px;
+}
+
+#hotdealimage3border{
+    height:100%;
+    width:30%;
+    float:left;
+    margin-left:2%;
+    
+    border-radius:5px;
+}
+
+#hotdealimage1{
+    height:100%;
+      width:100%;
+      border-radius:5px;
+}
+#hotdealimage2{
+    height:100%;
+      width:100%;
+      border-radius:5px;
+}
+#hotdealimage3{
+    height:100%;
+      width:100%;
+      border-radius:5px;
+}
+
+#staticimageborder{
+    height:20%;
+    width:95%;
+    margin-left:2.5%;
+    
+    margin-top:2%;
+    border-radius:15px;
+}
+#staticimage{
+    height:100%;
+    width:100%;
+    border-radius:15px;
+}
+
+
+
+#whatnewborder,#trendborder{
+    height:56%;
+    margin-top:2%;
+    width:100%;
+    
+    margin-bottom:5%;
+}
+#trendborder{
+    height:50%;
+    width:80%;
+    margin-left:10%;
+}
+
+#whatnewimage1border,#trendimage1border{
+    height:88%;
+    width:18%;
+    
+    margin-left:1.5%;
+    float:left;
+}
+
+#whatnewimage2border,#trendimage2border{
+    height:88%;
+    width:18%;
+    
+    margin-left:1.5%;
+    float:left;
+}
+
+#whatnewimage3border,#trendimage3border{
+    height:88%;
+    width:18%;
+    
+    margin-left:1.5%;
+    float:left;
+}
+
+#whatnewimage4border,#trendimage4border{
+    height:88%;
+    width:18%;
+    
+    margin-left:1.5%;
+    float:left;
+}
+
+#whatnewimage5border,#trendimage5border{
+    height:88%;
+    width:18%;
+    
+    margin-left:1.5%;
+    float:left;
+}
+
+#whatnewimage1,#trendimage1{
+    height:100%;
+    width:100%;
+    cursor:pointer;
+}
+
+#whatnewimage2,#trendimage2{
+    height:100%;
+    width:100%;
+    cursor:pointer;
+}
+#whatnewimage3,#trendimage3{
+    height:100%;
+    width:100%;
+    cursor:pointer;
+}
+#whatnewimage4,#trendimage4{
+    height:100%;
+    width:100%;
+    cursor:pointer;
+}
+#whatnewimage5,#trendimage5{
+    height:100%;
+    width:100%;
+    cursor:pointer;
+    
+}
+#whatname1,#whatname2,#whatname3,#whatname4,#whatname5,#trendname1,#trendname2,#trendname3,#trendname4,#trendname5{
+    font-size:12px;
+    text-align:center;
+}
+
+#foryouborder{
+    margin-top:1%;
+    margin-left:10%;
+    width:80%;
+    height:30%;
+    
+    
+}
+#foryouimageborder{
+    height:95%;
+    width:13%;
+    
+    float:left;
+    margin-left:4%;
+    cursor:pointer;
+}
+
+#foryouimage1,#foryouimage2,#foryouimage3,#foryouimage4,#foryouimage5{
+    height: 100%;
+    width:100%;
+}
+
+#youborder{
+    width:84%;
+    height:84%;
+    margin-left:8%;
+    float:left;
+    
+    margin-bottom:5%;
+}
+#youimage1border{
+    height:47%;
+    width:48%;
+    float:left;
+    
+    margin-bottom:3%;
+    
+}
+#youimage2border{
+    height:47%;
+    width:48%;
+    float:right;
+    
+    margin-bottom:3%;
+
+}
+
+#youimage3border{
+    height:47%;
+    width:48%;
+    float:left;
+    
+    
+    
+}
+#youimage4border{
+    height:47%;
+    width:48%;
+    float:right;
+    
+    
+
+}
+#i{
+    height:100%;
+    width:100%;
+}
+
+#downdown{
+    height:100%;
+    width:100%;
+}
+
+#footer{
+    
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+#flexx{
+    display: flex;
+
+}
+#flexx h5{
+    color:#fdd835;
+    font-size: 13px;
+    margin-top: 0;
+    font-weight: normal;
+    margin-top:10px;
+}
+#flexx div{
+    color:white;
+    margin-left:10%;
+    font-size: small;
+}
+#bewa{
+    color:#fdd835;
+    margin-left:10%;
+    margin-bottom:0px;
+    padding-top:70px;
+  
+    
+}
+#flexx2{
+    display: flex;
+    color:white
+}
+#marginn{
+    margin-bottom: 0;
+}
+#footer > div:nth-child(3){
+    margin-top: 28px;
+}
+#googleimg img{
+    width:35%;
+    
+}
+#flexx #cards{
+    margin-left:0;
+}
+#footer #hrline{
+    
+    border:thin solid white;
+    background-color: black;
+    width:78%;
+    margin:2%;
+    margin-left:10%;
+    opacity:.5
+    
+}
+#men-v{
+    color:white;
+}
+#flexx2{
+    display:flex;
+    font-size: small;
+
+    
+}
+#flexx2 div{
+    margin-left:5%;
+}
+#flexx2 #men-v{
+    margin-left: 10%;
+}
+#flexx2 #gapp{
+    margin-top:12px;
+    margin-left:0;
+}
+
+#flexx2 h3{
+    font-size:18px;
+    opacity: 1;
+}
+#fanbook{
+    color:#51cccc;
+}
+#men-v div,#women-v div,#mobile-v div{
+    opacity: .92;
+    margin-left: 0;
+}

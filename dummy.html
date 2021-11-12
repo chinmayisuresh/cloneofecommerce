@@ -1,0 +1,275 @@
+
+   <body>
+    <div class="topbar">
+        <div class="offers">Offers</div>
+        <div class="fanbook">Fanbook</div>
+        <div class="download">Download App</div>
+        <div class="tribe">Tribe Membership</div>
+        <div class="contact">Contact Us</div>
+        <div class="track">Track Order</div>
+    </div>
+    
+<div>
+    <div class="navbar">
+        <div class="bewakooflogo"><img class="bewakooflogoimg"src="https://images.bewakoof.com/web/bewakoof-primary-logo-white-bg-2x-1635745564.png"></div>
+        <div id="men">MEN</div>
+        <div  class="women">WOMEN</div>
+        <div> <input class="search" placeholder="Search for products"></input></div>
+        <div class="ver"></div>
+        <div class="login">Login</div>
+        <div class="wish"><img class="wishimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2hFdyb0qzSDkJtAxiyAQ07f8uxqU6-ZXWiA&usqp=CAU"></div>
+        <div class="bag"><img class="bagimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-MEBGHWNF5_IEuxR7kNNHNfvtDKlIq0yCzg&usqp=CAU"></div>
+    </div>
+
+
+    
+    
+   
+</div>
+
+
+</body>
+    <style>
+        #womennavbarshow{
+            height:80%;
+            width:80%;
+            margin-left:10%;
+            border:solid 1px black;
+            display:none;
+            position: fixed;
+            background-color: burlywood;
+        }
+        
+        #mennavbarshow{
+            height:80%;
+            width:80%;
+            margin-left:10%;
+            border:solid 1px black;
+            display:none;
+            position: fixed;
+            background-color: burlywood;
+        }
+       
+        .bignavbar{
+            height:80%;
+            width:100%;
+            border:solid 1px black;
+        }
+
+        .bagimg{
+            height:100%;
+            width:100%;
+        }
+        .bag{
+            height:50%;
+            width:1.8%;
+            
+            float:left;
+            margin-top:0.75%;
+            margin-left:1.5%;
+        }
+        .wish{
+            margin-top:1%;
+            height:40%;
+            
+            float:left;
+            
+        }
+        .wishimg{
+            height:100%;
+            width:100%;
+
+        }
+        ::placeholder{
+            font-size:80%;
+        }
+        :focus{
+            outline: none;
+        }
+         .search{
+             width:22%;
+             margin-top:0.4%;
+             float:left;
+             margin-left:30%;
+             background-color:rgb(233, 232, 232);
+             border-radius:5px;
+             padding:0.9%;
+             border:none;
+             
+             
+         }
+         .search:hover {
+             background-color:white;
+             border:0.5px solid rgb(233,232,232);
+            
+         }
+         .ver{
+             margin-top:1%;
+             height:40%;
+             border-left:solid 0.2px rgb(184, 179, 179);
+             margin-left:0.8%;
+             float:left;
+         }
+         
+         .login{
+             float:left;
+             margin-left:0.2%;
+             padding:0.9%;
+
+         }
+        .navbar{
+            height:8%;
+            width:100%;
+            border-bottom:  solid 0.5px  rgb(233, 232, 232)
+        }
+        .bewakooflogo{
+            height:100%;
+            width:11%;
+            margin-left:7%;
+            
+            float:left;
+        }
+        .bewakooflogoimg{
+            margin-top:6%;
+            height:45%;
+            width:100%;
+        }
+        #men{
+            padding:0.9%;
+            border:solid 1px black;
+            float:left;
+            margin-left:3%;
+            font-size:80%;
+            
+
+        }
+        
+        
+        
+
+        
+        .women{
+            font-size:80%;
+            float:left;
+             padding:0.9%;
+            
+            
+            
+            
+        }
+        
+        .topbar{
+            margin:0%;
+            width:100%;
+            height:4%;
+            background-color:rgb(233, 232, 232);
+
+
+        }
+        .offers{
+            margin-top:0.3%;
+            float:left;
+            height:80%;
+            width:8%;
+            font-family: montserrat,sans-serif;
+            font-size:70%;
+            margin-left:4%;
+            text-align:center;
+            
+            font-weight: lighter;
+        }
+        .fanbook{
+            margin-top:0.3%;
+            float:left;
+            height:80%;
+            width:5%;
+            font-family: montserrat,sans-serif;
+            
+            font-weight: lighter;
+        }
+        .download{
+            margin-top:0.3%;
+            float:left;
+            height:80%;
+            width:7%;
+            font-size:70%;
+            
+            font-family: montserrat,sans-serif;
+            font-weight: lighter;
+        }
+        .tribe{
+            margin-top:0.3%;
+            float:left;
+            height:80%;
+            width:8%;
+            font-size:70%;
+            font-family: montserrat,sans-serif;
+            font-weight: lighter;
+
+        }
+        .contact{
+            margin-top:0.3%;
+            float:left;
+            height:80%;
+            width:6%;
+            margin-left:50%;
+            font-size:70%;
+            font-family: montserrat,sans-serif;
+            
+            font-weight: lighter;
+
+        }
+        .track{
+            margin-top:0.3%;
+            float:left;
+            height:80%;
+            width:6%;
+            font-family: montserrat,sans-serif;
+            font-size: 70%;
+
+           
+        
+           
+            
+            font-weight: lighter;
+
+        }
+
+        #men:hover #navbarshow{
+           display:none;
+       }
+    </style>
+    <script>
+       function show(gender){
+           console.log(gender);
+           if(gender=='men'){
+            document.getElementById('mennavbarshow').style.display = 'block';}
+  
+             else{
+        document.getElementById('womennavbarshow').style.display = 'block';}
+
+                           }
+        
+
+        function dontshow(gender){
+            if(gender=='men'){
+            document.getElementById('mennavbarshow').style.display = 'none';}
+            else{
+            document.getElementById('womennavbarshow').style.display='none';
+            }
+            }
+
+        function dontshow1(gender){
+            if(gender=='men'){
+            if(document.getElementById('mennavbarshow').style.display=='none'){
+                document.getElementById('mennavbarshow').style.display='none'
+            }}
+            else{
+                if(document.getElementById('womennavbarshow').style.display=='none'){
+                document.getElementById('womennavbarshow').style.display='none';
+            }
+
+            }
+        }
+    </script>
+</html>

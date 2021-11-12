@@ -1,0 +1,55 @@
+<html>
+<head>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="login.css"></style>
+    <title>LOGIN/SIGNIN</title>
+  </head>  
+
+
+    <body>
+        
+        <div class="topbar">
+            <div class="offers">Offers</div>
+            <div class="fanbook">Fanbook</div>
+            <div class="download">Download App</div>
+            <div class="tribe">Tribe Membership</div>
+            <div class="contact">Contact Us</div>
+            <div class="track">Track Order</div>
+        </div>
+
+
+        <div>
+            <div class="navbar">
+                <div class="bewakooflogo"><img class="bewakooflogoimg"src="https://images.bewakoof.com/web/bewakoof-primary-logo-white-bg-2x-1635745564.png"></div>
+                <div onclick='men()'id="men">MEN</div>
+                <div onclick='women()' class="women">WOMEN</div>
+                <div> <input class="search" placeholder="Search for products"></input></div>
+                <div class="ver"></div>
+                
+                <div class="wish"><img class="wishimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2hFdyb0qzSDkJtAxiyAQ07f8uxqU6-ZXWiA&usqp=CAU"></div>
+                <div class="bag"><img class="bagimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-MEBGHWNF5_IEuxR7kNNHNfvtDKlIq0yCzg&usqp=CAU"></div>
+            </div>
+        </div>
+ 
+    
+
+
+        <div id="bigborder">
+              <div id="welcometobewakoof">
+                   <img  id="welcomeimage" src="https://images.bewakoof.com/web/group-19-1617704502.png"/>
+               </div>
+               <h1 id="signloginborder">Log in / Sign up</h1>
+               <p  id="forlatest">for Latest trends, exciting offers and everything Bewakoof!</p>
+               <input id="phonenumberinput" type='number' placeholder='Enter a Mobile Number'/>
+               <button onclick=userlogin() id="continuebutton" >CONTINUE</button>
+               <hr>
+               <button onclick=userlogin() id="loginwithemail" >CONTINUE WITH EMAIL</button>
+               <button onclick=userlogin() id='loginwithgoogle'>GOOGLE</button>
+               <button  onclick=userlogin() id='loginwithfacebook'>FACEBOOK</button>
+    </body>
+    
+<script src=login.js></script>
+</html>
+
