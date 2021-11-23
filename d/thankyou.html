@@ -1,0 +1,47 @@
+<html>
+<head>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet"href="thankyou.css"></style>
+<title>THANK YOU</title>
+  </head> 
+  <body>
+    <div id="header">
+        <div id="bewakooflogoborder">
+            <img src="https://images.bewakoof.com/web/bewakoof-primary-logo-white-bg-2x-1635745564.png">
+       </div>
+        <div id="signedin">Signed as</div>
+        <div id="signedinname"></div>
+  </div>
+
+  <div id="thankyouborder">Thank you for purchasing</div>
+  <button onclick="a()" id="continueshopping">CONTINUE SHOPPING</button>
+
+  <script>
+    localStorage.setItem('cart',JSON.stringify([]));
+    function a(){
+      window.location.href='index2.html';
+    }
+    
+
+    function userlogin(){
+    var a=JSON.parse(localStorage.getItem('login'));
+    
+    if(a!=null){
+        var b=document.getElementById('signedinname');
+        var c=document.getElementsByClassName('search');
+        
+        b.style='font-size:10px;'
+        b.innerHTML=a.email;
+    }
+}
+function see(){
+    var a=JSON.parse(localStorage.getItem('see'));
+    if(a=='yes'){
+
+        userlogin();
+    }
+}
+see();
+  </script>
