@@ -35,6 +35,7 @@ function display(){
 display();
 
 function details(element){
+    console.log(element);
     localStorage.setItem('detail',JSON.stringify(element));
     window.location.href="details.html";
 }
