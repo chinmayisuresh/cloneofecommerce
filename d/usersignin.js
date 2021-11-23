@@ -15,7 +15,7 @@ function saving(){
     a.email=document.getElementById('useremail').value;
     a.password=document.getElementById('userpassword').value;
     a.phone=document.getElementById('usernumber').value;
-    
+    console.log(a)
     var sign=JSON.parse(localStorage.getItem('sign'));
     sign.push(a);
     localStorage.setItem('sign',JSON.stringify(sign));
