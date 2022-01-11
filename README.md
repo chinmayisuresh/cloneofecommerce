@@ -1,6 +1,7 @@
 # About
 Bewakoof is a lifestyle fashion brand that makes creative and distinctive fashion apparel this project is a clone of this website
-
+![alt text]()
+<img src="https://images.bewakoof.com/web/bewakoof-primary-logo-white-bg-2x-1635745564.png" />
 # Description:
 Features include Sign-up and Login page, Home page, and Product catalog Product Details page Add to Cart with edit items feature.. You can access this cloned-website by visiting the link https://chinmayisuresh.github.io/cloneofecommerce/d/index.html
 
